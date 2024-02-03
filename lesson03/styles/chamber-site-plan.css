@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #91C499;
+    --secondary-color: #595959;
+    --accent1-color: #ADC178;
+    --accent2-color: #CFD11A;
+
+    --heading-font: 'Cute Font', cursive, Verdana, Geneva, Tahoma;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --nav-background-color: #595959;
+    --nav-link-color: #CFD11A;
+    --nav-hover-link-color: #595959;
+    --nav-hover-background-color: #CFD11A;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #F2E9DC;
+    padding: 20px;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 2.5em;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 2em;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p {
+    padding: 25px;
+    color: var(--secondary-color);
+}
+
+.author {
+    text-align: right;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+
+nav {
+    display: flex;
+    background-color: var(--nav-background-color);
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}

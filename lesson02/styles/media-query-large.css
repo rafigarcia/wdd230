@@ -1,0 +1,13 @@
+@media screen and (min-width: 500px) {
+    h1 {
+        background-color: black;
+        color: aliceblue;
+        padding: 10px;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+        
