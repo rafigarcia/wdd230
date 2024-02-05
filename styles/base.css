@@ -75,9 +75,9 @@ body {
 }
 
 .navigation a, .navigation a:visited{
-    color: #6d6875;
+    color: #b5838d;
 }
-
+    
 .navigation a:hover, .navigation a:focus{  
     background-color: #6d6875;
     color: #ffcdb2;
