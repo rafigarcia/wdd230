@@ -1,0 +1,36 @@
+@media screen and (min-width: 600px) {
+    
+    
+    /* NAVIGATION DISPLAY MENU */
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+   
+    header #menu {
+        display: none;
+    }
+
+    header .navigation {
+        display: flex;
+        padding: 2rem;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header .navigation li {
+        display: block;
+        padding: 1rem;
+    }
+
+    header .navigation a {
+        text-align: center;
+    }
+
+    /* END NAVIGATION DISPLAY MENU */
+
+
+}
+

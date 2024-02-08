@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #91C499;
+    --secondary-color: #595959;
+    --accent1-color: #ADC178;
+    --accent2-color: #CFD11A;
+
+    --heading-font: 'Cute Font', cursive, Verdana, Geneva, Tahoma;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --nav-background-color: #595959;
+    --nav-link-color: #CFD11A;
+    --nav-hover-link-color: #595959;
+    --nav-hover-background-color: #CFD11A;
+}
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+/*END RESET*/
+
+
+/*UTILITY CLASSES*/
+
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+
+/*END UTILITY CLASSES*/
+
+
+/* GENERAL STYLE */
+body {
+    font-family: var(--paragraph-font);
+    background-color: #F2E9DC;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: clamp(1.8rem, 5vw, 3.5rem);
+}
+
+p {
+    padding: 1.5rem;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: var(--secondary-color);
+    line-height: 1.5;
+}
+/* END GENERAL STYLING */
+
+
+
+/* NAVIGATION */
+header {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    text-align: center;
+    margin: 0 auto;
+}
+.logo {
+    padding: 1rem;
+    width: clamp(150px, 20%, 300px);
+}
+
+.logo img {
+    width: 100%;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    transition: all 0.2s ease-in-out;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    white-space: nowrap;
+}
+
+.navigation a:hover, .navigation a:active {
+    color: var(--nav-background-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.open li {
+	display: block;
+}
+
+#menu {
+    font-size: 2.5rem;
+	border: 0;
+	background: none;
+	position: absolute;
+	top: 2.5rem;
+	right: 2.5rem;
+}
+
+#menu::before {
+	content: "☰";
+    color: var(--nav-link-color);
+}
+
+#menu.open::before {
+	content: "🟡";
+}
+
+/* END NAVIGATION */
+
+/* HERO STYLE */
+.hero {
+    position: relative;
+}
+
+.background img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    bottom: 0.7rem;
+    text-align: center;
+    padding: 0.7rem;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.65);
+}
+
+/* END HERO STYLE */
+
+/* ABOUT STYLE */
+
+.about {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.featured {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured img{
+    width: 100%;
+    border: var(--accent1-color) 2px solid;
+    box-shadow: 0 0 20px var(--accent1-color);
+}
+
+.content {
+    padding: 1rem;
+    text-align: center;
+    align-self: center;
+}
+
+/* END ABOUT STYLE */
+
+/* PODIUM STORES STYLE  */
+.stores {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stores h2 {
+    text-align: center;
+    border-bottom: #ADC178 5px solid;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.podium {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.business {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business img{
+    width: 100%;
+    border: var(--accent1-color) 2px solid;
+    box-shadow: 0 0 20px var(--accent1-color);
+    aspect-ratio: 16/9;
+}
+
+.business:hover {
+    transform: scale(1.05);
+}
+/* END PODIUM STORES STYLE */
+
+
+
+/* FOOTER STYLE */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.2em;
+    background-color: var(--nav-background-color);
+    color: var(--accent1-color);
+}
+
+.sociallinks {
+    display: flex;
+    line-height: 1.5em;
+    padding: 25px;
+    justify-content: flex-end;
+}
+
+.sociallinks a {
+    text-decoration: none;
+    width: 70px;
+}
+
+.sociallinks a img {
+    width: 100%;
+}
+
+footer p {
+    padding: 1rem;
+    white-space: nowrap;
+    color: var(--accent1-color);
+}
