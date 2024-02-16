@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 06 Responsive Images</title>
+    <meta name="description" content="This is a lesson for the week 06 of WDD230 class">
+    <meta name="author" content="Rafaela Garcia">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(maw-width: 400px)" srcset="image/hero-small.webp">
+                <source media="(min-width: 800px)" srcset="image/hero-medium.webp">
+                <source media="(min-width: 1200px)" srcset="image/hero-large.webp">
+                <img src="image/landscape.webp" alt="temple idaho" width="1280" height="800">
+            </picture>
+        </div>
+    </main>
+</body>
+</html>
