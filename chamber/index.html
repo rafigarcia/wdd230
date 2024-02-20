@@ -39,9 +39,12 @@
     <main>
         <section class="hero">
             <h1>La Paz Ventures: Your One-Stop Guide Destination for Tourism</h1>
-            <figure class="background">
-                <img src="https://lp-cms-production.imgix.net/2020-11/b2d578bd09916bf36a729124bc44c4b3-calle-jaen-museums.jpg" alt="Jaen Street">
-            </figure>
+            <picture class="background">
+                <source media="(min-width: 400px)" srcset="images/smallx400.webp">
+                <source media="(min-width: 800px)" srcset="images/mediumx800.webp">
+                <source media="(min-width: 1200px)" srcset="images/largex1200.webp">
+                <img src="images/largex1200.webp" alt="Jaen Street">
+            </picture>
             <div id="mode">
                 🔦
             </div>
