@@ -14,14 +14,6 @@ img {
 
 /* end Reset */
 
-
-/* Utilities classes*/
-
-.offscreen{
-    position: absolute;
-    left: -10000px;
-}
-
 /* End Utilities classes */
 
 
@@ -57,7 +49,7 @@ body {
     box-shadow: 0 0 30px #e2cfd3;
 }
 
-.h1-name{
+h1{
     width: fit-content;
 }
 
