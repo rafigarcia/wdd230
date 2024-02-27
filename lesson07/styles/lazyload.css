@@ -1,0 +1,48 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: blanchedalmond;
+    color: burlywood;
+} 
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin: 1.5rem auto;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    color: brown;
+    padding: 2rem;
+}
