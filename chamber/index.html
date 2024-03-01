@@ -23,13 +23,12 @@
 <body>
     <header>
         <figure class="logo">
-            <img src="../chamber/images/lapaz.svg" alt="Logo" width="250">
-            <figcaption class="offscreen">La Paz Ventures Logo</figcaption>
+            <img src="images/lapaz.svg" alt="Logo" width="250">
         </figure>
         <button id="menu"></button>
         <nav>
             <ul class="navigation">
-                <li><a href="https://rafita.github.io/WDD230/chamber/index.html">Home</a></li>
+                <li><a href="https://rafigarcia.github.io/wdd230/chamber/index.html">Home</a></li>
                 <li><a href="#">Local Business</a></li>
                 <li><a href="#">Touristic Gems</a></li>
             </ul>
@@ -40,10 +39,10 @@
         <section class="hero">
             <h1>La Paz Ventures: Your One-Stop Guide Destination for Tourism</h1>
             <picture class="background">
-                <source media="(min-width: 400px)" srcset="images/smallx400.webp">
-                <source media="(min-width: 800px)" srcset="images/mediumx800.webp">
-                <source media="(min-width: 1200px)" srcset="images/largex1200.webp">
-                <img src="images/largex1200.webp" alt="Jaen Street">
+                <source media="(max-width: 600px)" srcset="images/smallx600.webp">
+                <source media="(max-width: 900px)" srcset="images/mediumx900.webp">
+                <source media="(max-width: 1500px)" srcset="images/largex1500.webp">
+                <img src="images/largex1500.webp" alt="Jaen Street">
             </picture>
             <div id="mode">
                 🔦
@@ -53,7 +52,6 @@
         <section class="about">
             <figure class="featured">
                 <img src="https://t3.ftcdn.net/jpg/04/06/94/24/360_F_406942405_yf1LEBCm78O8fHPObvpS1nwU5CzfRABG.jpg" alt="Illimani">
-                <figcaption class="offscreen">Illimani</figcaption>
             </figure>
             <div class="content">
                 <h2>Why La Paz Ventures</h2>
@@ -78,14 +76,17 @@
         </section>
 
         <section class="join">
-            <h3 class="info">Be part of La Paz ventures Chamber</h3>
+            <h3>Be part of La Paz ventures Chamber</h3>
             <button class="button">Request Inquires</button>
         </section>
         
         <section class="contact">
+            <picture class="chinas">
+                <img src="images/chinaslarge.webp" alt="typical customers" width="400">
+            </picture>
             <div class="info">
                 <h3>Contact us!</h3>
-                <p>Address: <br>
+                <p>Address:<br>
                     123 Serenity Street <br>
                     Peaceville, PZ 54321<br>
                     United Harmony<br>
@@ -95,11 +96,12 @@
                     <br>
                     Email:<br>
                     info@lapazchamber.com</p>
+                <h3>Weather</h3>
+               <p>Temperature: <span id="temperature"></span> F <br>
+                WindSpeed: <span id="wind"></span> mph <br>
+                Wind Chill: <span id="chill"></span> F </p> 
             </div>
-            <figure class="mono">
-                <img src="https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1d/af/4b.jpg" alt="Tiahuanacu">
-                <figcaption class="offscreen">Tiahuanacu </figcaption>
-            </figure>
+            
         </section>
     </main>
 
@@ -125,5 +127,6 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/wind.js"></script>
 </body>
 </html>

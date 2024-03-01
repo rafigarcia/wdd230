@@ -9,10 +9,10 @@
     --heading-font: 'Cute Font', cursive, Verdana, Geneva, Tahoma;
     --paragraph-font: 'Open Sans', sans-serif;
 
-    --nav-background-color: #595959;
-    --nav-link-color: #CFD11A;
-    --nav-hover-link-color: #595959;
-    --nav-hover-background-color: #CFD11A;
+    --nav-background-color: #000;
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #000;
+    --nav-hover-background-color: #fff;
 }
 
 /*RESET*/
@@ -29,21 +29,10 @@ img {
 /*END RESET*/
 
 
-/*UTILITY CLASSES*/
-
-.offscreen{
-    position: absolute;
-    left: -10000px;
-}
-
-/*END UTILITY CLASSES*/
-
-
 /* GENERAL STYLE */
 body {
     font-family: var(--paragraph-font);
-    background-color: #F2E9DC;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0 auto;
 }
 
@@ -78,7 +67,7 @@ p {
 /* NAVIGATION */
 header {
     padding: 0;
-    background-color: var(--secondary-color);
+    background-color: var(--nav-background-color);
     text-align: center;
     margin: 0 auto;
 }
@@ -135,7 +124,7 @@ header {
 }
 
 #menu.open::before {
-	content: "🟡";
+	content: "⚪";
 }
 
 /* END NAVIGATION */
@@ -293,14 +282,8 @@ header {
 /* END JOIN SECTION STYLE */
 
 /* CONTACT STYLE  */
-.contact {
-    position: relative;
-    border: var(--primary-color);
-    margin: 1rem;
-    padding: 1rem;
-}
 
-.mono {
+.chinas {
     display: block;
     max-width: min(75%, 1000px);
     height: auto;
@@ -308,22 +291,23 @@ header {
     margin: 0 auto;
 }
 
-.mono img {
+.chinas img {
     width: 100%;
 }
 
 .contact .info {
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0.65);
-    text-align: left;
-    left: 2rem;
-    bottom: 2rem;
-    
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.info h3 {
+    text-align: center;
+    border-bottom: #91C499 3px solid;
 }
 
 .info p {
-    color: #fff;
     font-size: clamp(0.2rem, 2vw, 1.5rem);
+    text-align: center;
 }
 
 /* END CONTACT STYLE  */

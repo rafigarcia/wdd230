@@ -30,6 +30,11 @@
 
     /* END NAVIGATION DISPLAY MENU */
 
+    /* CONTACT STYLE  */
+    .contact {
+        display: flex;
+        flex-direction: row;
+    }
 
 }
 

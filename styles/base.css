@@ -102,8 +102,10 @@ h1{
 .open a {
 	display: block;
 }
+/* END NAVIGATION STYLE  */
 
 
+/* MAIN STYLE */
 h2 {
     text-align: center;
     color: #A53860;
@@ -142,7 +144,7 @@ p {
     text-align: center;
 }
 
-/* HERO STYLING  */
+/* TEMPLE BACKGROUND STYLING  */
 .temple {
     position: relative;
 }
