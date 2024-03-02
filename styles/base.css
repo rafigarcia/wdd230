@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-
-/*reset*/
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +10,7 @@ img {
     display: block;
 }
 
-/* end Reset */
+
 
 
 body {
@@ -23,7 +21,7 @@ body {
 }
 
 
-/* Header style */
+
 .hero{
     padding: 0.5rem;
     display: flex;
@@ -53,7 +51,7 @@ h1{
     margin: 0;
 }
 
-/*navigation style*/
+
 
 .navigation {
     text-align: center;
@@ -102,10 +100,7 @@ h1{
 .open a {
 	display: block;
 }
-/* END NAVIGATION STYLE  */
 
-
-/* MAIN STYLE */
 h2 {
     text-align: center;
     color: #A53860;
@@ -144,7 +139,7 @@ p {
     text-align: center;
 }
 
-/* TEMPLE BACKGROUND STYLING  */
+
 .temple {
     position: relative;
 }
@@ -164,7 +159,7 @@ p {
     height: auto;
 }
 
-/*Map style*/
+
 
 .map {
     width: auto;
@@ -188,7 +183,7 @@ footer {
 }
 
 
-/*desktop view*/
+
 @media screen and (min-width: 600px) {
     
     body { 
