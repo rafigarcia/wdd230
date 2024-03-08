@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Open+Sans&display=swap');
-
 :root {
     --primary-color: #91C499;
     --secondary-color: #595959;
     --accent1-color: #ADC178;
     --accent2-color: #CFD11A;
 
-    --heading-font: 'Cute Font', cursive, Verdana, Geneva, Tahoma;
-    --paragraph-font: 'Open Sans', sans-serif;
+    --heading-font: "Manrope", cursive, Verdana, Geneva, Tahoma;
+    --paragraph-font: Arial, Helvetica, sans-serif;
 
     --nav-background-color: #000;
     --nav-link-color: #fff;
@@ -39,9 +37,11 @@ body {
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 600;
     text-align: center;
     font-weight: 800;
+    padding: 0.5rem;
 }
 
 h2,
@@ -51,14 +51,15 @@ h5,
 h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    font-size: clamp(1.8rem, 5vw, 3.5rem);
-    font-weight: 600;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    font-weight: 400;
+    padding: 0.7rem;
 }
 
 p {
-    padding: 1.5rem;
+    padding: 0.5rem;
     font-size: clamp(1rem, 2vw, 1.5rem);
-    line-height: 1.5;
+    line-height: 2.3rem;
 }
 /* END GENERAL STYLING */
 
@@ -142,10 +143,11 @@ header {
 
 .hero h1 {
     position: absolute;
-    bottom: 0.7rem;
+    bottom: 5rem;
+    right: 10%;
     text-align: center;
     padding: 0.7rem;
-    width: 100%;
+    width: 80%;
     background-color: rgb(0, 0, 0, 0.65);
 }
 
@@ -221,16 +223,13 @@ header {
     align-items: center;
 }
 
-.business img{
+.business :first-child{
     width: 100%;
     border: var(--accent1-color) 2px solid;
     box-shadow: 0 0 20px var(--accent1-color);
-    aspect-ratio: 16/9;
 }
 
-.business:hover {
-    transform: scale(1.05);
-}
+
 /* END PODIUM STORES STYLE */
 
 /* JOIN SECTION STYLE */
@@ -243,6 +242,10 @@ header {
     margin: 2rem;
     padding: 2rem;
     border-bottom: var(--accent1-color) 5px solid;
+}
+.join h3 {
+    text-align: center;
+    padding: 1rem;
 }
 
 .button {
@@ -353,5 +356,71 @@ footer p {
 .dark-mode {
 	background-color: #000;
 	color: #fff;
-	border-color: #eee; 
+	border-color: var(--accent2-color); 
+}
+
+
+
+/* SPECIFIC STYLE FOR DISCOVER.HMTL PAGE */
+.cultural{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.side {
+    margin: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+
+.store {
+    margin: 0.5rem;
+}
+
+.store img {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.store :first-child{
+    width: 100%;
+    border: var(--accent1-color) 2px solid;
+    box-shadow: 0 0 20px var(--accent1-color);
+}
+
+.facts {
+    display: block;
+    border: var(--accent1-color) 2px solid;
+    width: 300px;
+    height: 300px; 
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+
+.fact p {
+    padding: 1rem;
+    text-align: center;
+    align-content: center;
+    font-family: var(--heading-font);
+    font-size: 1rem;
+}
+
+.maps, .calendar {
+    margin: 1rem;
+    width: 300px;
+    height: 300px;
+} 
+
+.maps iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+.calendar iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
 }

@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
     
     
     /* NAVIGATION DISPLAY MENU */
@@ -30,10 +30,46 @@
 
     /* END NAVIGATION DISPLAY MENU */
 
+
+    /* STORES STYLES */
+    .business:hover {
+        transform: scale(1.05);
+    }
+    /* END STORES STYLES */
+    
+    
+    
     /* CONTACT STYLE  */
     .contact {
         display: flex;
         flex-direction: row;
+    }
+
+
+    /*SPECIFIC STYLE FOR DISCOVER.HMTL PAGE */
+    #discover {
+        display: grid;
+        grid-template-columns: 400px auto;
+        grid-template-rows: auto;
+        grid-gap: 2rem;
+        justify-content: center;
+    }
+
+    .cultural {
+        grid-column: 2/3;
+    }
+
+    .side {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .store:hover {
+        transform: scale(1.05);
+    }
+
+    .side {
+        border-right: var(--accent1-color) 3px solid;
     }
 
 }

@@ -37,72 +37,52 @@
 
     <main>
         <section class="hero">
-            <h1>La Paz Ventures: Your One-Stop Guide Destination for Tourism</h1>
+            <h1><span id="message"></span></h1>
             <picture class="background">
-                <source media="(max-width: 600px)" srcset="images/smallx600.webp">
-                <source media="(max-width: 900px)" srcset="images/mediumx900.webp">
-                <source media="(max-width: 1500px)" srcset="images/largex1500.webp">
-                <img src="images/largex1500.webp" alt="Jaen Street">
+                <source media="(max-width: 600px)" srcset="images/animasx600.webp">
+                <source media="(max-width: 900px)" srcset="images/animasx900.webp">
+                <source media="(max-width: 1500px)" srcset="images/animasx1500.webp">
+                <img src="images/animasx1500.webp" alt="Animas Valley">
             </picture>
             <div id="mode">
                 🔦
             </div>
         </section>
-
-        <section class="about">
-            <figure class="featured">
-                <img src="https://t3.ftcdn.net/jpg/04/06/94/24/360_F_406942405_yf1LEBCm78O8fHPObvpS1nwU5CzfRABG.jpg" alt="Illimani">
-            </figure>
-            <div class="content">
-                <h2>Why La Paz Ventures</h2>
-                <p>La Paz Ventures is your premier online destination, connecting travelers with the vibrant tapestry of experiences that the city has to offer. Discover a curated selection of touristic businesses, from captivating excursions to cozy accommodations, ensuring your journey through La Paz is not just a guide for your next trip but a memorable adventure tailored to your preferences.</p>
-            </div>
-        </section>
-
-        <section class="stores">
-            <h2>Top trio for the month on the podium</h2>
-            
-            <div class="podium">
-                <a href="https://smartlink.metricool.com/public/smartlink/LaRufina" class="business">
-                    <img src="https://lh3.googleusercontent.com/p/AF1QipP3HUO2l7zSZyhk4fUa0rfTr0_wWyWUuhCXROQ1=s680-w680-h510" alt="La Rufina">
-                </a>
-                <a href="https://www.tripadvisor.com/Restaurant_Review-g294072-d17763210-Reviews-Manq_a_Restaurante-La_Paz_La_Paz_Department.html" class="business">
-                    <img src="https://lh3.googleusercontent.com/p/AF1QipOpCMBUd_c8bFnrVP8osXoVTrNIlqdVyzj4FxXY=s680-w680-h510" alt="Manqa">
-                </a>
-                <a href="https://www.casa-grande-hotel.com/amenities/" class="business">
-                    <img src="https://www.casa-grande-hotel.com/public/img/galeria/h15.jpg" alt="Casa Grande Hotel">
-                </a>
-            </div>
-        </section>
-
-        <section class="join">
-            <h3>Be part of La Paz ventures Chamber</h3>
-            <button class="button">Request Inquires</button>
-        </section>
         
-        <section class="contact">
-            <picture class="chinas">
-                <img src="images/chinaslarge.webp" alt="typical customers" width="400">
-            </picture>
-            <div class="info">
-                <h3>Contact us!</h3>
-                <p>Address:<br>
-                    123 Serenity Street <br>
-                    Peaceville, PZ 54321<br>
-                    United Harmony<br>
-                    <br>
-                    Phone Number:<br>
-                    (555) 555-1234<br>
-                    <br>
-                    Email:<br>
-                    info@lapazchamber.com</p>
-                <h3>Weather</h3>
-               <p>Temperature: <span id="temperature"></span> F <br>
-                WindSpeed: <span id="wind"></span> mph <br>
-                Wind Chill: <span id="chill"></span> F </p> 
+        <div id="discover">
+            <div class="cultural">
+                <a href="https://www.tripadvisor.com/Tourism-g303186-Coroico_La_Paz_Department-Vacations.html" class="store">
+                    <img src="images/coroicox900.webp" alt="Coroico city" width="600" loading="lazy">
+                </a>
+                <a href="https://www.viator.com/La-Paz-attractions/San-Francisco-Church/overview/d5027-a15516" class="store">
+                    <img src="images/sanfrax900.webp" alt="San Francisco cathedral" width="600" loading="lazy">
+                </a>
+                <a href="https://www.travelyesplease.com/travel-blog-tiwanaku-bolivia/" class="store">
+                    <img src="images/tihux900.webp" alt="Tihuanacu" width="600" loading="lazy">
+                </a>
+                <a href="https://www.viator.com/La-Paz-attractions/Lake-Titicaca/d5027-a7616" class="store">
+                    <img src="images/titix900.webp" alt="Lake Titicaca" width="600" loading="lazy">
+                </a>
+                <a href="https://www.atlasobscura.com/places/bolivia-s-witch-market" class="store">
+                    <img src="images/witchesx900.webp" alt="Witches Street" width="600" loading="lazy">
+                </a> 
+                <a href="https://www.boliviaentusmanos.com/turismo/atractivos/carnaval-de-la-paz.html" class="store">
+                    <img src="images/cholax900.webp" alt="Chola Boliviana" width="600" loading="lazy">
+                </a> 
             </div>
-            
-        </section>
+            <article class="side">
+                <h3>La Paz Facts</h3>
+                <p class="facts">La Paz holds the title of the highest administrative capital city in the world, sitting at an elevation of over 3,500 meters (11,500 feet) above sea level.</p>
+                <p class="facts">Considering just the core urban area of La Paz, the estimated population sits around 816,044 residents as of 2020. This makes it the third-most populous city in Bolivia.</p>
+                <div class="facts maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7821207.488252027!2d-69.22993782361647!3d-16.828887528931585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf0a04f5a40f%3A0x57dbfc76b4458ab3!2sLa%20Paz%2C%20Bolivia!5e0!3m2!1sen!2sus!4v1709582956863!5m2!1sen!2sus" width="300" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="facts calendar">
+                    <iframe src="https://calendar.google.com/calendar/embed?src=6bfc2a38a5371e4a6d8e950ed33bfb562fa5cad7935930882950d3ab5723cb69%40group.calendar.google.com&ctz=America%2FChicago" width="300" height="300"></iframe>
+                </div>
+                <p class="facts">La Paz is surrounded by the majestic peaks of the Andes, including the iconic Illimani mountain which towers over the city at 6,438 meters (21,122 feet).</p>
+            </article>
+        </div>
     </main>
 
     <footer>
@@ -128,5 +108,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/wind.js"></script>
+    <script src="scripts/pagevisits.js"></script>
 </body>
 </html>
