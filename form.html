@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafaela Garcia - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web fronted Development - Rafaela Garcia - Course Assignment Portal">
+    <meta name="author" content="Rafaela Garcia">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development leaning page Rafaela - Rate us page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.pexels.com/photos/1569012/pexels-photo-1569012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    <meta property="og:url" content="https://rafita.github.io/WDD230/">
+    <meta property="og:description" content="Rafaela Garcia - Web Frontend Development">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+ 
+<body>
+    <header>
+        <section class="hero">
+            <figure class="profile">
+            <img src="images/profile.webp" alt="Rafaela Garcia" title="My profile Picture">
+            </figure>
+            <h1>Rafaela Garcia</h1>
+        </section>
+    </header>
+    
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/index.html" target="_blank">Chamber</a></li>
+            <li><a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/5?lang=eng&id=p12#p12" target="_blank">Scripture</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2 class="login">Log in / Sing in</h2>
+        
+        <div id="formmessage"></div>
+
+        <form action="/wdd230/suggestions.txt" target="_blank">
+            
+            <fieldset>
+                <legend>Sing Up and Rate us</legend>    
+                
+                <div class="grid">
+                    <label for="name">Username</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+
+                <div class="grid">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Insert your password" required>
+                </div>
+
+                <div class="grid">
+                    <label for="password">Confirm your password</label>
+                    <input type="password" id="confirm" name="password" placeholder="repeat your password" required>
+                </div>
+
+                <div class="grid">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="email" required>
+                </div>
+                
+                <div class="grid">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div class="grid">
+                    <label for="rating">Rate my page</label>
+                    <input type="number" name="rating" id="rating" min="1" max="10" placeholder="1-10" required>
+                </div>
+            </fieldset>
+            <input type="submit" class="button">
+        </form>
+        
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190256.19761811072!2d-87.8971131475924!3d41.83361466958417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1706680012720!5m2!1sen!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="year"></span> 🦋 Rafaela Garcia 🦋 Illinois, USA</p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/password.js"></script>
+</body>
+</html>
