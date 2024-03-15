@@ -72,5 +72,14 @@
         border-right: var(--accent1-color) 3px solid;
     }
 
+    /* JOIN US - THANK YOU STYLE */
+    .small {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem auto;
+        width: 900px;
+    }
+
 }
 

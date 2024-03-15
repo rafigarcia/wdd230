@@ -362,6 +362,7 @@ footer p {
 
 
 /* SPECIFIC STYLE FOR DISCOVER.HMTL PAGE */
+
 .cultural{
     margin: 0;
     display: flex;
@@ -424,3 +425,117 @@ footer p {
     height: 100%;
     border-radius: 1.5rem;
 }
+
+
+/* FORM STYLE */
+
+form {
+    margin: 1rem;
+    padding: 1rem;
+    border: var(--primary-color) solid 3px;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    margin: 1.5rem;
+}
+
+legend {
+    padding: 1rem;
+    color: var(--accent1-color);
+    font-size: 1.5em;
+}
+
+label, input, button, select, textarea {
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea, radio {
+    padding:.7rem;
+    font-size: 1.1rem;
+}
+
+.grid{
+    margin: 1rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid2{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.label{
+    padding: 1rem;
+    text-align: left;
+}
+
+.button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+.button:hover {
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+
+
+.subs {
+    display: flex;
+    flex-direction: column;
+    border: var(--primary-color) 2px solid;
+    background-color: var(--primary-color);
+    color: #fff;
+    width: 300px;
+    height: 180px; 
+    border-radius: 1rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.subs p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.subs ol {
+    list-style: disc;
+}
+
+.thankyou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thankyou p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: var(--heading-font);
+}
+
