@@ -1,0 +1,27 @@
+[
+    {
+      "nameFamily": "Smith",
+      "moveDate": "2018-01-01",
+      "integrants": 3,
+      "bishop": true,
+      "eachMember": [
+        {
+            "name": "Jason",
+            "gender": "Male",
+            "birthdate": "1990-01-01"
+        },
+
+        {
+            "name": "Jane",
+            "gender": "Female",
+            "birthdate": "1996-03-08"
+        },
+
+        {
+            "name": "Jill",
+            "gender": "Female",
+            "birthdate": "2008-09-18"
+        }
+      ]
+    }
+]
