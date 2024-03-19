@@ -1,0 +1,85 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url":"week01/holygrail.html",
+                    "title": "Holygrail"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url":"lesson02/design-principles.html",
+                    "title":"Design Principles"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url":"https://codepen.io/rafigarcia/pens/public",
+                    "title":"Codepen Pens"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links":[
+                {
+                    "url":"https://codepen.io/rafigarcia/pens/public",
+                    "title":"CSS Pseudo- classes"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links":[
+                {
+                    "url":"lesson05/bom.html",
+                    "title":"Favorite Scriptures of the Book of mormon"
+                }
+            ]
+        },
+        {
+            "lesson":"06",
+            "links":[
+                {
+                    "url":"lesson06/responsive-images.html",
+                    "title":"Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson":"07",
+            "links":[
+                {
+                    "url":"lesson07/lazyload.html",
+                    "title":"Lazy Load"
+                }
+            ]
+        },
+        {
+            "lesson":"08",
+            "links":[
+                {
+                    "url":"https://codepen.io/rafigarcia/pens/public",
+                    "title":"Tables"
+                }
+            ]
+        },
+        {
+            "lesson" : "09",
+            "links":[
+                {
+                    "url": "lesson09/prophets.html",
+                    "title":"Prophets"
+                }
+            ]
+        }
+    ]
+}
