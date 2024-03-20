@@ -1,0 +1,67 @@
+{
+"members": [
+    {
+      "name": "Illimani Coffee Roasters",
+      "address": "Calle Jaén Nº 747, La Paz, Bolivia",
+      "phone_number": "+591 2 222-5544",
+      "website_url": "https://www.illimaniroasters.com",
+      "image_url": "https://cdn.vox-cdn.com/thumbor/6kLvmWfhU4h64EhC0S6tsn714fI=/0x0:4032x3024/1200x900/filters:focal(1694x1190:2338x1834)/cdn.vox-cdn.com/uploads/chorus_image/image/59740845/IMG_1503.42.jpg",
+      "membership_level": "Gold",
+      "description": "A cozy coffee shop offering specialty coffee from the Yungas region, brewed with traditional methods."
+    },
+    {
+      "name": "Teleférico La Paz",
+      "address": " Estación Central - Plaza Mayor, La Paz, Bolivia",
+      "phone_number": "+591 2 211-5555",
+      "website_url": "https://www.telefericolapaz.com.bo",
+      "image_url": "https://www.lapazlife.com/wp-content/uploads/2014/06/cable-car-la-paz-bolivia.jpg",
+      "membership_level": "N/A",
+      "description": "The world's highest urban cable car system, offering stunning views of the city and surrounding mountains."
+    },
+    {
+      "name": "Luna Salon & Spa",
+      "address": "Calle Linares Nº 234, La Paz, Bolivia",
+      "phone_number": "+591 2 243-1234",
+      "website_url": "https://www.lunasalonspa.com",
+      "image_url": "https://francescossalonspa.com/wp-content/uploads/2021/06/SalonRoom_8463.jpg",
+      "membership_level": "Silver",
+      "description": "A luxurious spa offering a variety of massage therapies, facials, and beauty treatments using natural Andean ingredients."
+    },
+    {
+      "name": "Mercado Lanza",
+      "address": "Calle Lanza Nº 180, La Paz, Bolivia",
+      "phone_number": "+591 2 297-3344",
+      "website_url": "N/A",
+      "image_url": "https://i0.wp.com/www.akkicris.site/wp-content/uploads/2020/04/f_2018-09-27_67.jpg?resize=700%2C569",
+      "membership_level": "N/A",
+      "description": "A large and vibrant market selling a wide variety of goods, including fresh produce, handicrafts, and local textiles."
+    },
+    {
+      "name": "Hotel Mitru Sur",
+      "address": "Calle Sagárnaga Nº 177, La Paz, Bolivia",
+      "phone_number": "+591 2 231-9876",
+      "website_url": "https://www.mitrusur.com",
+      "image_url": "https://mitru-express.lapazhotelsweb.com/data/Images/OriginalPhoto/10322/1032208/1032208097/image-la-paz-mitru-express-hotel-2.JPEG",
+      "membership_level": "Bronze",
+      "description": "A charming boutique hotel located in the historic center of La Paz, offering comfortable accommodations and personalized service."
+    },
+    {
+      "name": "Cementerio General de La Paz",
+      "address": "Av. Baptista Nº  1499, La Paz, Bolivia",
+      "phone_number": "+591 2 222-0000",
+      "website_url": "N/A",
+      "image_url": "https://www.lapazlife.com/wp-content/uploads/2017/03/la-paz-cemetery-2-1.jpg",
+      "membership_level": "N/A",
+      "description": "A historical cemetery known for its elaborate mausoleums and scenic location overlooking the city."
+    },
+    {
+      "name": "Estadio Hernando Siles",
+      "address": "Zona Miraflores, La Paz, Bolivia",
+      "phone_number": "+591 2 249-1234",
+      "website_url": "https://estadiohernandosiles.com",
+      "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/06/92/0b/4b/estadio-hernando-siles.jpg",
+      "membership_level": "Silver",
+      "description" : "Bolivia's largest stadium and home to the Bolivian national football team."
+    }
+  ]
+}
