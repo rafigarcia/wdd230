@@ -1,23 +1,36 @@
-// Calulation of the Wind chill
+// Weather API 
+const currentTemp = document.getElementById("temperature");
+const windSpeed = document.getElementById("wind");
+const windChill = document.getElementById("chill");
+const weatherIcon = document.getElementById("weather-icon");
+const captionDesc = document.querySelector("figcaption");
 
+const url ='https://api.openweathermap.org/data/2.5/weather?lat=41.88&lon=-87.63&appid=9065c67bf4f8e51fd2802e0c64927985';
 
-//Get the elemets for the weather section
-let temperature = document.getElementById("temperature");
-let windspeed = document.getElementById("wind");
-let windChill = document.getElementById("chill");
-
-
-let givenTemperature = 41;
-let givenWind = 8;
-
-temperature.textContent = givenTemperature;
-windspeed.textContent = givenWind;
-
-function windChillCalc(temperature, wind) {
-    let windChillValue = 35.74 + (0.6215 * temperature) - (35.75 * (wind ** 0.16)) + (0.4275 * temperature * (wind ** 0.16));
-    return Math.round (windChillValue);
+async function apiFetch() {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            displayResults(data);
+        } else {
+            throw Error (await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
 }
 
-let currectWind = windChillCalc(givenTemperature, givenWind);
+function displayResults(data) {
+    currentTemp.textContent = `${data.main.temp} F°`;
+    windSpeed.textContent = `${data.wind.speed} MPH`;
+    windChill.textContent = `${data.main.temp} F°`;
+    const inconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    let desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', inconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    captionDesc.textContent = `${desc}`;
+}
 
-windChill.textContent = currectWind
+
+apiFetch();

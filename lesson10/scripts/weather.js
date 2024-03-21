@@ -21,10 +21,10 @@ async function apiFetch() {
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
     const inconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    let desc = data.weather[0].description;
+    let desc = data.weather[0].description.toUpperCase();
     weatherIcon.setAttribute('src', inconsrc);
     weatherIcon.setAttribute('alt', desc);
-    captionDesc.textContent = `${desc}`;
+    captionDesc.textContent = `${desc.toUpperCase()}`;
 }
 
 
