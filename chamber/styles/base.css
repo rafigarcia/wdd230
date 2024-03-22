@@ -32,6 +32,8 @@ body {
     font-family: var(--paragraph-font);
     font-size: 1rem;
     margin: 0 auto;
+    line-height: 1.5;
+    min-width: 600px;
 }
 
 h1 {
@@ -165,6 +167,48 @@ header {
 
 
 /* END HERO STYLE */
+
+/* BANNER DISPLAY STYLE */
+
+#banner {
+    background-color: var(--accent2-color);
+    color: var(--nav-background-color);
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 1.5rem auto;
+    border: red 5px dotted;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+}
+
+#banner h2 {
+    color: red;
+    font-weight: 700;
+    font-size: larger;
+    border-bottom: red 5px solid;
+    padding: 1rem;
+}
+
+#banner p {
+    padding: 1rem;
+    font-size: 2rem;
+}   
+
+.close-btn {
+    font-size: clamp(2rem, 4vw, 4rem);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: var(--accent2-color);
+    padding: 0.5rem;
+    border: none;
+}
+
+.close-btn:hover {
+    background-color: #fff;
+}
+
+/* END BANNER DISPLAY STYLE */
+
 
 /* ABOUT STYLE */
 
@@ -309,7 +353,7 @@ header {
 }
 
 .info p {
-    font-size: clamp(0.2rem, 2vw, 1.5rem);
+    font-size: 1.5rem;
     text-align: center;
 }
 

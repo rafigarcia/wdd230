@@ -1,3 +1,7 @@
 @media screen and (min-width: 1200px){
-    
+    /* SIZE OF BODY */
+
+    body {
+        max-width: 1600px;
+    }
 }

@@ -1,6 +1,11 @@
 @media screen and (min-width: 900px) {
     
-    
+    /* SIZE OF BODY */
+
+    body {
+        min-width: 900px;
+    }
+
     /* NAVIGATION DISPLAY MENU */
     header {
         display: flex;

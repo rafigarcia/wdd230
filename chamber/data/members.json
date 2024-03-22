@@ -62,6 +62,24 @@
       "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/06/92/0b/4b/estadio-hernando-siles.jpg",
       "membership_level": "Silver",
       "description" : "Bolivia's largest stadium and home to the Bolivian national football team."
-    }
+    },
+    {
+      "name": "Gustu Gourmet Restaurant",
+      "address": "Calle Murillo Nº 521, La Paz, Bolivia",
+      "phone_number": "+591 2 218-7788",
+      "website_url": "https://wareontheglobe.com/2023/06/14/restaurant-gustu-a-magical-foodie-experience-in-la-paz-bolivia/",  
+      "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/10/54/13/35/trabajamos-unicamente.jpg",
+      "membership_level": "N/A",
+      "description": "Gustu, the quechua word for flavour, is a restaurant and bar in La Paz, Bolivia."
+      },
+      {
+      "name": "Manq'a Restaurant",
+      "address": "Pasaje Rodriguez Nº 123, La Paz, Bolivia",
+      "phone_number": "+591 2 257-3321",
+      "website_url": "N/A",
+      "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/29/ca/0d/9b/ensalada-andina-mix-de.jpg",
+      "membership_level": "Silver",
+      "description": "A charming Gourme food showcasing the work of local artisans. "
+      }
   ]
 }
