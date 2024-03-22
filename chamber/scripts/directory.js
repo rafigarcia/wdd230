@@ -1,6 +1,10 @@
  
  const url = 'data/members.json';
- const cards = document.getElementById('cards');
+ const cards = document.querySelector('.cards');
+
+const gridButton = document.getElementById('grid');
+const listButton = document.getElementById('list');
+
 
  async function getMembers() {
     const request = new Request(url);
@@ -12,6 +16,7 @@
  const displayMembers = (members) => {
     members.forEach(member => {
         let card = document.createElement('section');
+        let cardText = document.createElement('div');
         let name = document.createElement('h2');
         let address = document.createElement('p');
         let phone = document.createElement('p');
@@ -33,16 +38,27 @@
 
         info.textContent = member.description;
     
-        image.appendChild(url);
-
-        card.appendChild(name);
-        card.appendChild(address);
-        card.appendChild(phone);
+        
         card.appendChild(image);
-        card.appendChild(info);
+        cardText.appendChild(name);
+        cardText.appendChild(address);
+        cardText.appendChild(phone);
+        cardText.appendChild(info);
+        card.appendChild(cardText);
         cards.appendChild(card);    
     });
 
  }
 
  getMembers();
+
+
+ gridButton.addEventListener('click', () => {
+   cards.classList.add('gridDirectory');
+   cards.classList.remove('list');
+ });
+ 
+ listButton.addEventListener('click', () => {
+   cards.classList.add('list');
+   cards.classList.remove('gridDirectory');
+ });

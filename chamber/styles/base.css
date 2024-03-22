@@ -58,7 +58,7 @@ h6 {
 
 p {
     padding: 0.5rem;
-    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-size: 1.5rem;
     line-height: 2.3rem;
 }
 /* END GENERAL STYLING */
@@ -499,8 +499,6 @@ input, select, textarea, radio {
     color: #fff;
 }
 
-
-
 .subs {
     display: flex;
     flex-direction: column;
@@ -525,6 +523,8 @@ input, select, textarea, radio {
     list-style: disc;
 }
 
+/* Thank you Style */
+
 .thankyou {
     display: flex;
     flex-direction: column;
@@ -541,35 +541,73 @@ input, select, textarea, radio {
 
 /* END SPECIFIC STYLE FOR DISCOVER.HMTL PAGE */
 
-/* MEMBERS STYLE */
-#cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
+/* DIRECTORY STYLE */
+
+.menu {
+    margin: 1rem auto;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    text-align: center;
+    width: 20%;
+    min-width: 300px;
+    border-radius: 1.5rem;
 }
 
-#cards section {
-    background-color: var(--secondary-color);
-    border: 1px solid var(--accent2-color);
-    border-radius: 1rem;
-    margin: 0.5rem;
-    padding: 0.5rem;
+.gridDirectory {
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-gap: 5px;
+}
+
+.gridDirectory section {
+    text-align: center;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between
+}
+
+.gridDirectory img {
+    border: var(--accent2-color) solid 2px;
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+    aspect-ratio: 16/9;
+}
+
+.cards section {
+    box-shadow: 2px 2px 15px var(--accent2-color);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.cards p {
+    color: #fff;
+    padding: 1rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;  
+}
+
+.list section {
+    margin: .5rem;
+}
+
+.list img {
+    display: none;
+}
+
+.list section > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    justify-content: center;
     align-items: center;
 }
-
-#cards p {
-    color: #fff;
-    margin: 0.5rem;
-    text-align: center;
-
+.list section:nth-child(even) {
+	background-color: #000;
 }
-
-#cards img {
-    width: auto;
-    max-width: 600px;
-    box-shadow: 0 0 30px #777;
-    height: 200px;
-    border: 1px solid #333;
-  }
