@@ -357,6 +357,20 @@ header {
     text-align: center;
 }
 
+#weather {
+    display: block;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+#weather figcaption{
+    text-align: center;    
+}
+
+#weather-icon{
+    margin: 0 auto;
+}
+
 /* END CONTACT STYLE  */
 
 
