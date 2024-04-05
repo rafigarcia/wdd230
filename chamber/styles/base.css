@@ -40,7 +40,6 @@ h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: clamp(2rem, 5vw, 4rem);
-    font-weight: 600;
     text-align: center;
     font-weight: 800;
     padding: 0.5rem;

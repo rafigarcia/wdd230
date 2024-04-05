@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!Discover Cozumel the Scoots Way!</title>
+    <meta name="description" content="Scoots Cozumel Rental the best way to explore Cozumel Mexico, Rent a scooter and discover the paradise island of Mexico the fun way!">
+    <meta name="author" content="Rafaela Garcia">
+    <meta property="og:title" content="Scoots Cozumel Rental the Paradice of Mexico,Discover Cozumel the Scoots Way! Scoots: Ride, Explore, Repeat!">
+    <meta property="og:type" content="rental website">
+    <meta property="og:image" content="https://images.pexels.com/photos/2549355/pexels-photo-2549355.jpeg">
+    <meta property="og:url" content="https://rafita.github.io/WDD230/final">
+    <meta property="og:description" content="Scoots Coxymel Rental the paradise of Mexico Island, Rent a scooter and discover Cozumel the fun way! Explore beaches, snorkel reefs, visit Mayan ruins. Scoots: Ride, Explore, Repeat!">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <figure class="logo">
+            <a href="https://rafigarcia.github.io/wdd230/final/index.html">
+                <img src="images/logo.svg" alt="Logo" width="250">
+            </a>
+        </figure>
+        <button id="menu"></button>
+   
+        <nav>
+            <ul class="navigation">
+                <li><a href="https://rafigarcia.github.io/wdd230/final/index.html">Home</a></li>
+                <li><a href="https://rafigarcia.github.io/wdd230/final/rentals.html">Rentals</a></li>
+                <li><a href="https://rafigarcia.github.io/wdd230/final/reservations.html">Reservations</a></li>
+                <li><a href="https://rafigarcia.github.io/wdd230/final/contact.html">Contact Us!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture class="hero-back">
+                <source media="(max-width: 600px)" srcset="images/contactx600.webp">
+                <source media="(max-width: 900px)" srcset="images/contactx900.webp">
+                <source media="(max-width: 1500px)" srcset="images/contactx1500.webp">
+                <img src="images/contactx1500.webp" alt="Hero greeting">
+            </picture>
+            <h1>We have received your inquirity, Thank you!</h1>
+            <div id="mode">
+                🔦
+            </div>
+            <button class="button" onclick="location.href='reservations.html'">Contact us!</button>
+        </section>
+
+        <div class="thanks">
+            <picture>
+                <img src="images/whitescooter.webp" alt="White Scooter" loading="lazy" width="600">
+            </picture>
+            <div class="vision-text">
+                <h2>Thank you for reaching out to us at Scoots with your inquiry!</h2>
+                <p>Your request for information is important to us, and we're currently gathering all the details you'll need to embark on your journey. Please expect a response from us within the next 5 business days.</p>
+                <p>In the meantime learn more about us:  <br></p>
+                <button class="button" onclick="location.href='reservations.html'">Contact us!</button>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>©<span id="year"></span> Rafaela Group Inc. All rights reserved. <br>
+            Last Updated: <span id="lastModified"></span></p>
+            
+            <nav class="sociallinks">
+                <a href="https://www.facebook.com/">
+                    <img src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-512.png" alt="facebook" width="100">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-128.png" alt="Instagram" width="100">
+                </a>
+                <a href="https://www.linkedin.com/">
+                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="linkedin" width="100">
+                </a>
+                <a href="https://www.tiktok.com/en/">
+                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" alt="TikTok" width="100">
+                </a>
+            </nav>
+    </footer>
+    <script src="scripts/getdate.js"></script>
+    <script src="scripts/menu.js"></script>
+
+
+</body>
+</html>

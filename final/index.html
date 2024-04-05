@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots Cozumel Rental the Paradice of Mexico,Discover Cozumel the Scoots Way!</title>
+    <meta name="description" content="Scoots Cozumel Rental the best way to explore Cozumel Mexico, Rent a scooter and discover the paradise island of Mexico the fun way!">
+    <meta name="author" content="Rafaela Garcia">
+    <meta property="og:title" content="Scoots Cozumel Rental the Paradice of Mexico,Discover Cozumel the Scoots Way! Scoots: Ride, Explore, Repeat!">
+    <meta property="og:type" content="rental website">
+    <meta property="og:image" content="https://images.pexels.com/photos/2549355/pexels-photo-2549355.jpeg">
+    <meta property="og:url" content="https://rafita.github.io/WDD230/final">
+    <meta property="og:description" content="Scoots Coxymel Rental the paradise of Mexico Island, Rent a scooter and discover Cozumel the fun way! Explore beaches, snorkel reefs, visit Mayan ruins. Scoots: Ride, Explore, Repeat!">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <figure class="logo">
+            <a href="https://rafigarcia.github.io/wdd230/final/index.html">
+                <img src="images/logo.svg" alt="Logo" width="250">
+            </a>
+        </figure>
+        <button id="menu"></button>
+   
+        <nav>
+            <ul class="navigation">
+                <li><a href="https://rafigarcia.github.io/wdd230/final/index.html">Home</a></li>
+                <li><a href="https://rafigarcia.github.io/wdd230/final/rentals.html">Rentals</a></li>
+                <li><a href="https://rafigarcia.github.io/wdd230/final/reservations.html">Reservations</a></li>
+                <li><a href="https://rafigarcia.github.io/wdd230/final/contact.html">Contact Us!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Scoots Cozumel Unleashed: Scoot Your Way to Adventure!</h1>
+            <picture class="hero-back">
+                <source media="(max-width: 600px)" srcset="images/homesmallx600.webp">
+                <source media="(max-width: 900px)" srcset="images/homemediumx900.webp">
+                <source media="(max-width: 1500px)" srcset="images/homelargex1500.webp">
+                <img src="images/homelargex1500.webp" alt="Hero greeting">
+            </picture>
+            <div id="mode">
+                🔦
+            </div>
+            <button class="button" onclick="location.href='reservations.html'">Rent</button>
+        </section>
+        
+        <div class="home-body">
+            <picture class="home-body-img">
+                <source media="(max-width: 600px)" srcset="images/shackx600.webp">
+                <source media="(max-width: 900px)" srcset="images/shackx900.webp">
+                <source media="(max-width: 1000px)" srcset="images/cozumelx900.webp">
+                <img src="images/cozumelxlarge.webp" alt="Beach in Cozumel" loading="lazy">
+            </picture>
+            <div class="weather">
+                <h3>Weather</h3>
+                <figure id="weather">
+                    <img id="weather-icon">
+                    <figcaption></figcaption>
+                </figure>
+                <p>Temperature: <span id="temperature"></span><br>
+                WindSpeed: <span id="wind"></span><br>
+                Wind Chill: <span id="chill"></span></p> 
+            </div>
+            <div class="home-introduction">
+                <h3>Unlock the Magic of Cozumel with Scoots!</h3>
+                <p>Scoots is your premier motor scooter rental service on the captivating island of Cozumel, where every twist and turn unveils a new adventure. Nestled in the heart of the Caribbean, we offer an exhilarating way to explore the island's pristine beaches, lush jungles, and historic landmarks. With our fleet of meticulously maintained scooters, riders can effortlessly glide along Cozumel's scenic roads, discovering hidden treasures and creating unforgettable memories.</p>
+            </div>
+        </div>
+        <div class="home-script">
+            <div class="home-script-img ">
+                <img src="images/beachscript.webp" alt="Beach of Cozumel, shore">
+                <div class="script">
+                    <h2>Benefits of Renting a Scooter in Cozumel</h2>
+                    <p>
+                        Freedom to Explore <br>
+                        Cost-Efficiency <br>
+                        Scenic Experience <br>
+                        Flexibility and Convenience <br>
+                        Environmental Friendliness
+                    </p>
+                    <button class="button" onclick="location.href='reservations.html'">Rent a Scooter</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="year"></span> Rafaela Group Inc. All rights reserved. <br>
+            Last Updated: <span id="lastModified"></span></p>
+            
+            <nav class="sociallinks">
+                <a href="https://www.facebook.com/">
+                    <img src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-512.png" alt="facebook" width="100">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-128.png" alt="Instagram" width="100">
+                </a>
+                <a href="https://www.linkedin.com/">
+                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="linkedin" width="100">
+                </a>
+                <a href="https://www.tiktok.com/en/">
+                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" alt="TikTok" width="100">
+                </a>
+            </nav>
+    </footer>
+    <script src="scripts/getdate.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/weather.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+{
+    "rentals": [
+      {
+        "name": "Honda Metro Scooter",
+        "max_person": 1,
+        "reservation_half_day": 20,
+        "reservation_full_day": 30,
+        "walk_in_half_day": 25,
+        "walk_in_full_day": 35,
+        "colors": ["Red", "Blue", "Yellow"],
+        "vehicles_available": 6,
+        "image": "https://cdn1.cycletrader.com/v1/media/65ea69c49264f30a85061395.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true"
+      },
+      {
+        "name": "Honda Dio Scooter",
+        "max_person": 2,
+        "reservation_half_day": 30,
+        "reservation_full_day": 40,
+        "walk_in_half_day": 35,
+        "walk_in_full_day": 45,
+        "colors": ["Green", "Black", "White"],
+        "vehicles_available": 7,
+        "image": "https://cloudfront-us-east-1.images.arcpublishing.com/octane/QUW437SWKNCOLECBCVYF7P3QS4.jpg"
+      },
+      {
+        "name": "Honda PCX150 Scooter",
+        "max_person": 2,
+        "reservation_half_day": 40,
+        "reservation_full_day": 50,
+        "walk_in_half_day": 45,
+        "walk_in_full_day": 55,
+        "colors": ["Silver", "Orange", "Purple"],
+        "vehicles_available": 5,
+        "image": "https://i0.wp.com/cacylxbcqa.cloudimg.io/www.hondaprokevin.com/wp-content/uploads/ngg_featured/honda-metropolitan-review-specs-scooter-ncw50-automatic-motorcycle-moped-pearl-soft-beige-1.jpg?resize=750%2C500&ssl=1"
+      },
+      {
+        "name": "Honda Pioneer ATV",
+        "max_person": 4,
+        "reservation_half_day": 50,
+        "reservation_full_day": 70,
+        "walk_in_half_day": 60,
+        "walk_in_full_day": 80,
+        "colors": ["Camouflage", "Blue", "Red"],
+        "vehicles_available": 9,
+        "image": "https://www.agriculture.com/thmb/6jWbYGd4DXYFo55piKR0QdFARMM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/24HondaPioneer1000-6DeluxeCrew_TrueTimberAtera_RF34-2d07f1868ced40e59a7031f39f283285.jpg"
+      },
+      {
+        "name": "Jeep Wrangler - 4 door with a/c",
+        "max_person": 5,
+        "reservation_half_day": 70,
+        "reservation_full_day": 100,
+        "walk_in_half_day": 85,
+        "walk_in_full_day": 125,
+        "colors": ["Black", "LIght Blue", "Grey"],
+        "vehicles_available": 4,
+        "image": "https://www.jeep.com/mediaserver/iris?client=FCAUS&market=U&brand=J&vehicle=2024_JL&paint=PGP&fabric=X9&sa=JLJP74%2C2TG%2C24G%2CPGP%2CX9%2C-X9%2CAJ1%2CAJY%2CCHD%2CCWA%2CGCD%2CGMA%2CGXD%2CHT3%2CMDA%2CMRK%2CRC4%2CTPQ%2CWPD%2CXNY&resp=png&bkgnd=white&pov=fronthero"
+      },
+      {
+        "name": "Jeep Wrangler - 2 door",
+        "max_person": 4,
+        "reservation_half_day": 60,
+        "reservation_full_day": 85,
+        "walk_in_half_day": 70,
+        "walk_in_full_day": 90,
+        "colors": ["Yellow", "Green", "Orange"],
+        "vehicles_available": 8,
+        "image": "https://edgecast-img.yahoo.net/mysterio/api/3B749D14C2D84D692D49608ADA73ECBCA06BC4890908E27EB7E786974D03FB6F/autoblog/resizefill_w788_h525;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/USD00JES011B021001.jpg"
+      }
+    ]
+  }
